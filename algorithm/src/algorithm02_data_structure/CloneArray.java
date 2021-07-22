@@ -19,5 +19,4 @@ public class CloneArray {
 			System.out.print(" "+ b[i]);
 		}
 	}
-
 }
