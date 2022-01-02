@@ -3,6 +3,13 @@ package 문자열검색;
 import java.util.Scanner;
 
 //브루트-포스법으로 문자열을 검색하는 프로그램
+/*
+ bfMatch는 txt에서 pat을 검색하여 텍스트의 위치(인덱스)를 반환합니다.
+ 여러 개가 있는 경우 가장 앞쪽에 위치한 텍스트의 인덱스를 반환
+ 검색에 실패하면 -1
+ 텍스트를 스캔하기 위한 변수로 pt를 사용
+ 패턴을 스캔하기 위한 변수로 pp를 사용
+ * */
 public class 부루트포스법 {
 	//브루트-포스법으로 문자열을 검색하는 메서드
 	static int bfMatch(String txt, String pat) {
